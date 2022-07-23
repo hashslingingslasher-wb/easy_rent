@@ -18,7 +18,7 @@
 5.	Real time stock view
 # Model:
 1.	Database of rental items
-    a.	Attributes
+    a. Attributes
         i.	ID
         ii.	SKU
         iii.	Name 
