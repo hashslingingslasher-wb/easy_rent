@@ -3,12 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using EasyRent.Models;
 
 namespace EasyRent.Controllers;
-
-public class HomeController : Controller
+/*
+This class controls the user views:
+    >Browse
+    >Checkout
+    >Login
+    >Profile
+    >Register
+*/
+public class UserController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<UserController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public UserController(ILogger<UserController> logger)
     {
         _logger = logger;
     }

@@ -16298,13 +16298,38 @@
   "RootNamespace": "EasyRent",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Login.cshtml",
+      "TargetPath": "Views\\User\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Privacy.cshtml",
+      "TargetPath": "Views\\User\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Admin\\Stock.cshtml",
+      "TargetPath": "Views\\Admin\\Stock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Profile.cshtml",
+      "TargetPath": "Views\\User\\Profile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Browse.cshtml",
+      "TargetPath": "Views\\User\\Browse.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Index.cshtml",
+      "TargetPath": "Views\\User\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16313,18 +16338,43 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Admin\\Customers.cshtml",
+      "TargetPath": "Views\\Admin\\Customers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Checkout.cshtml",
+      "TargetPath": "Views\\User\\Checkout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Admin\\Return.cshtml",
+      "TargetPath": "Views\\Admin\\Return.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Admin\\Warehouse.cshtml",
+      "TargetPath": "Views\\Admin\\Warehouse.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\User\\Register.cshtml",
+      "TargetPath": "Views\\User\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thewi\\Documents\\GitHub\\easy_rent\\EasyRent\\Views\\Admin\\Schedule.cshtml",
+      "TargetPath": "Views\\Admin\\Schedule.cshtml",
       "FileKind": "mvc"
     },
     {
