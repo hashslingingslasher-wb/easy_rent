@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EasyRent
 build_property.RootNamespace = EasyRent
-build_property.ProjectDir = C:\Users\thewi\Documents\GitHub\easy_rent\EasyRent\
+build_property.ProjectDir = c:\Users\thewi\Documents\GitHub\easy_rent\EasyRent\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\thewi\Documents\GitHub\easy_rent\EasyRent
+build_property.MSBuildProjectDirectory = c:\Users\thewi\Documents\GitHub\easy_rent\EasyRent
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Customers.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Customers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Return.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Return.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV0dXJuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Schedule.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Schedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2NoZWR1bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Stock.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Stock.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RvY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Warehouse.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Admin/Warehouse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cV2FyZWhvdXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/Error.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Browse.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Browse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCcm93c2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Checkout.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Index.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Login.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Privacy.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Profile.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Register.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/_ViewImports.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/_ViewStart.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/_Layout.cshtml]
+[c:/Users/thewi/Documents/GitHub/easy_rent/EasyRent/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-80a9c4dpit
