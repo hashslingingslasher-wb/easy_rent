@@ -1,4 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<EasyRentDataContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("EasyRentDataContext") ?? throw new InvalidOperationException("Connection string 'EasyRentDataContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

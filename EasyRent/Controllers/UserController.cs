@@ -19,8 +19,21 @@ public class UserController : Controller
     {
         _logger = logger;
     }
+    public IActionResult Browse()
+    {
+        return View();
+    }
+    public IActionResult Checkout()
+    {
+        return View();
+    }
 
     public IActionResult Index()
+    {
+        return View();
+    }
+
+    public IActionResult Login()
     {
         return View();
     }
@@ -29,6 +42,16 @@ public class UserController : Controller
     {
         return View();
     }
+
+    public IActionResult Profile()
+    {
+        return View();
+    }
+    public IActionResult Register()
+    {
+        return View();
+    }
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
