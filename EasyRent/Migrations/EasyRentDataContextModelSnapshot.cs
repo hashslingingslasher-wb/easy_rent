@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EasyRent.Migrations
 {
-    [DbContext(typeof(EasyRentDataContext))]
-    partial class EasyRentDataContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ProductContext))]
+    partial class ProductContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

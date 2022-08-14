@@ -11,9 +11,9 @@ namespace EasyRent.Controllers
 {
     public class DataController : Controller
     {
-        private readonly EasyRentDataContext _context;
+        private readonly ProductContext _context;
 
-        public DataController(EasyRentDataContext context)
+        public DataController(ProductContext context)
         {
             _context = context;
         }
@@ -23,7 +23,13 @@ namespace EasyRent.Controllers
         {
               return _context.EasyRent != null ? 
                           View(await _context.EasyRent.ToListAsync()) :
-                          Problem("Entity set 'EasyRentDataContext.EasyRent'  is null.");
+                          Problem("Entity set 'ProductContext.EasyRent'  is null.");
+        }
+        public async Task<IActionResult> Browse()
+        {
+              return _context.EasyRent != null ? 
+                          View(await _context.EasyRent.ToListAsync()) :
+                          Problem("Entity set 'ProductContext.EasyRent'  is null.");
         }
 
         // GET: Data/Details/5
@@ -55,15 +61,15 @@ namespace EasyRent.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,IsRented,ReturnDate,Price,Notes")] EasyRentData easyRentData)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,IsRented,ReturnDate,Price,Notes")] Product product)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(easyRentData);
+                _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(easyRentData);
+            return View(product);
         }
 
         // GET: Data/Edit/5
@@ -87,9 +93,9 @@ namespace EasyRent.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,IsRented,ReturnDate,Price,Notes")] EasyRentData easyRentData)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,IsRented,ReturnDate,Price,Notes")] Product product)
         {
-            if (id != easyRentData.Id)
+            if (id != product.Id)
             {
                 return NotFound();
             }
@@ -98,12 +104,12 @@ namespace EasyRent.Controllers
             {
                 try
                 {
-                    _context.Update(easyRentData);
+                    _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EasyRentExists(easyRentData.Id))
+                    if (!EasyRentExists(product.Id))
                     {
                         return NotFound();
                     }
@@ -114,7 +120,7 @@ namespace EasyRent.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(easyRentData);
+            return View(product);
         }
 
         // GET: Data/Delete/5
@@ -142,7 +148,7 @@ namespace EasyRent.Controllers
         {
             if (_context.EasyRent == null)
             {
-                return Problem("Entity set 'EasyRentDataContext.EasyRent'  is null.");
+                return Problem("Entity set 'ProductContext.EasyRent'  is null.");
             }
             var easyRent = await _context.EasyRent.FindAsync(id);
             if (easyRent != null)

@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EasyRent.Models
 {
-    public class EasyRentData
+    public class Product
     {
         public int Id { get; set; }
         public string? Name { get; set; }
@@ -12,5 +12,7 @@ namespace EasyRent.Models
         public DateTime ReturnDate { get; set; }
         public decimal Price { get; set; }
         public string? Notes{get; set;}
+
+        public int findId {get{return Id;}}
     }
 }

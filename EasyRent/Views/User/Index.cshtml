@@ -5,5 +5,10 @@
 @section NormalNav{}
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <a type="button" class="btn" asp-controller="Data" asp-action="Create">Admin Portal</a>
+    <div class="btn-group-vertical">
+        <a type="button" class="btn" asp-controller="Data" asp-action="Create">Admin Portal</a>   
+        <a type="button" class="btn" asp-controller="Data" asp-action="Browse">Browse</a>
+        <a type="button" class="btn" asp-controller="User" asp-action="Login">Login</a>
+        <a type="button" class="btn" asp-controller="User" asp-action="Register">Register</a>
+    </div>
 </div>

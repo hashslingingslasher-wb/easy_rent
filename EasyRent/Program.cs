@@ -1,12 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<EasyRentDataContext>(options =>
+builder.Services.AddDbContext<ProductContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("EasyRentDataContext") ?? throw new InvalidOperationException("Connection string 'EasyRentDataContext' not found.")));
 
+//Add in-memory session provider with default IDistributed cahce
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddMvc();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,6 +26,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+//For in-memory session provider
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

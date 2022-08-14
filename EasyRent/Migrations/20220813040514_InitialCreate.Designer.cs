@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EasyRent.Migrations
 {
-    [DbContext(typeof(EasyRentDataContext))]
+    [DbContext(typeof(ProductContext))]
     [Migration("20220813040514_InitialCreate")]
     partial class InitialCreate
     {
