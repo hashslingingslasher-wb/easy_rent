@@ -1,14 +1,15 @@
-@model EasyRent.Models.Product
+@model EasyRent.Models.Products
 
 @{
     ViewData["Title"] = "Edit";
 }
-@section UserNav{}
-@section NormalNav{}
 
 <h1>Edit</h1>
+<header>
+    @section UserNav{}
+</header>
 
-<h4>EasyRent</h4>
+<h4>Products</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -25,25 +26,20 @@
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageURL" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsRented" /> @Html.DisplayNameFor(model => model.IsRented)
+                    <input class="form-check-input" asp-for="isRented" /> @Html.DisplayNameFor(model => model.isRented)
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="ReturnDate" class="control-label"></label>
-                <input asp-for="ReturnDate" class="form-control" />
-                <span asp-validation-for="ReturnDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Notes" class="control-label"></label>
-                <input asp-for="Notes" class="form-control" />
-                <span asp-validation-for="Notes" class="text-danger"></span>
+                <label asp-for="LastDateRented" class="control-label"></label>
+                <input asp-for="LastDateRented" class="form-control" />
+                <span asp-validation-for="LastDateRented" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

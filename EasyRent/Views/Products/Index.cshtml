@@ -1,12 +1,13 @@
-@model IEnumerable<EasyRent.Models.Product>
+@model IEnumerable<EasyRent.Models.Products>
 
 @{
     ViewData["Title"] = "Index";
 }
-@section UserNav{}
-@section NormalNav{}
 
 <h1>Index</h1>
+<header>
+    @section UserNav{}
+</header>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -21,16 +22,13 @@
                 @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsRented)
+                @Html.DisplayNameFor(model => model.ImageURL)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ReturnDate)
+                @Html.DisplayNameFor(model => model.isRented)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Notes)
+                @Html.DisplayNameFor(model => model.LastDateRented)
             </th>
             <th></th>
         </tr>
@@ -45,16 +43,13 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsRented)
+                @Html.DisplayFor(modelItem => item.ImageURL)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ReturnDate)
+                @Html.DisplayFor(modelItem => item.isRented)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Notes)
+                @Html.DisplayFor(modelItem => item.LastDateRented)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

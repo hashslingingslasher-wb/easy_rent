@@ -5,13 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using EasyRent.Models;
 
-    public class ProductContext : DbContext
+    public class ProductsContext : DbContext
     {
-        public ProductContext (DbContextOptions<ProductContext> options)
+        public ProductsContext (DbContextOptions<ProductsContext> options)
             : base(options)
         {
         }
 
-        public DbSet<EasyRent.Models.Product> EasyRent { get; set; } = default!;
-       
+        public DbSet<EasyRent.Models.Products> Products { get; set; } = default!;
     }

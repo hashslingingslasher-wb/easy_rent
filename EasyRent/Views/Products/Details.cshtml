@@ -1,15 +1,16 @@
-@model EasyRent.Models.Product
+@model EasyRent.Models.Products
 
 @{
     ViewData["Title"] = "Details";
 }
-@section UserNav{}
-@section NormalNav{}
 
 <h1>Details</h1>
+<header>
+    @section UserNav{}
+</header>
 
 <div>
-    <h4>EasyRent</h4>
+    <h4>Products</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -25,28 +26,22 @@
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IsRented)
+            @Html.DisplayNameFor(model => model.ImageURL)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IsRented)
+            @Html.DisplayFor(model => model.ImageURL)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReturnDate)
+            @Html.DisplayNameFor(model => model.isRented)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ReturnDate)
+            @Html.DisplayFor(model => model.isRented)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
+            @Html.DisplayNameFor(model => model.LastDateRented)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Notes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Notes)
+            @Html.DisplayFor(model => model.LastDateRented)
         </dd>
     </dl>
 </div>
