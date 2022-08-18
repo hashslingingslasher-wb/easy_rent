@@ -12,10 +12,17 @@ namespace EasyRent.Controllers
     public class ProductsController : Controller
     {
         private readonly ProductsContext _context;
+        private ProductsContext db = new ProductsContext();
 
         public ProductsController(ProductsContext context)
         {
             _context = context;
+        }
+        public ViewResult Browse()
+        {
+            
+            
+            return View(db.Products.ToList());
         }
 
         // GET: Products
