@@ -1,0 +1,21 @@
+@model IEnumerable<EasyRent.Models.Products>
+
+@{
+    ViewData["Title"] = "Browse";
+}
+
+<h1>Browse Rentals</h1>
+<header>
+    @section UserNav{}
+</header>
+
+
+@foreach (var item in Model) {
+    <div class="container-fluid">
+        <div class="container p-5 my-5 border">
+            <h4>@Html.DisplayFor(modelItem=> item.Name)</h4>
+            <img src="@item.ImageURL" class="img-thumbnail "/>
+            <a class="btn btn-primary" asp-controller="CartController" asp-action="Index">Add To Cart</a>
+        </div>
+    </div>
+}

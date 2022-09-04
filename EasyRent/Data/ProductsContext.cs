@@ -8,8 +8,9 @@ using EasyRent.Models;
 
     public class ProductsContext : DbContext
     {
-        public ProductsContext ()
-        {
+        public ProductsContext (DbContextOptions<ProductsContext> options)
+            : base(options)
+            {
         }
 
         public DbSet<EasyRent.Models.Products> Products { get; set; }

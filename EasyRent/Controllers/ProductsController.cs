@@ -12,17 +12,16 @@ namespace EasyRent.Controllers
     public class ProductsController : Controller
     {
         private readonly ProductsContext _context;
-        private ProductsContext db = new ProductsContext();
 
         public ProductsController(ProductsContext context)
         {
             _context = context;
         }
-        public ViewResult Browse()
+        public async Task<IActionResult> Browse()
         {
-            
-            
-            return View(db.Products.ToList());
+            return _context.Products != null ? 
+                          View(await _context.Products.ToListAsync()) :
+                          Problem("Entity set 'ProductsContext.Products'  is null.");
         }
 
         // GET: Products
